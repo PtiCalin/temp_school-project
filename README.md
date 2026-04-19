@@ -1,21 +1,22 @@
-# School Project Template
+# School Project Repository Template
 
-Generic template repository for a school project.
+This repository provides a simple and structured base for academic work.
+It is designed to centralize documentation, resources, visual assets, and contribution tracking.
 
 ## Project Overview
 
 - Project title: [Project Title]
-- Course: [Course Name / Code]
+- Course: [Course Name or Code]
 - Institution: [Institution Name]
 - Team: [Team Name or Individual]
 - Submission date: [YYYY-MM-DD]
 
-## Objectives
+## Academic Objectives
 
-- Define the problem or research question.
-- Implement a clear and reproducible methodology.
-- Present results with evidence.
-- Document limitations and future work.
+- Define the problem statement or research question clearly.
+- Describe a reproducible methodology.
+- Present results supported by evidence.
+- Discuss limitations and future work.
 
 ## Repository Structure
 
@@ -25,41 +26,64 @@ Generic template repository for a school project.
 ├── LICENSE
 ├── AUTHORS.md
 ├── ATTRIBUTIONS.md
+├── CHANGE-LOG.md
 ├── .github/
-│   ├── VERSIONNING-GUIDELINES.md
-│   ├── BRANCH-RULES.md
 │   ├── SECURITY.md
-│   ├── PULL-REQUEST_TEMPLATE.md
-│   └── COMMIT-MESSAGE_TEMPLATE.md
+│   ├── templates/
+│   ├── versionning/
+│   └── workflows/
 └── files/
-	├── assets/
-	├── instructions/
-	└── resources/
+    ├── assets/
+    │   └── ASSETS.md
+    ├── instructions/
+    │   └── generic-school-project-outline.md
+    └── resources/
+        └── RESOURCES.md
 ```
 
-## Getting Started
+## Quick Start
 
 1. Clone the repository.
-2. Create a working branch from `main`.
-3. Add your work under the relevant folder.
-4. Open a pull request using the project template.
+2. Create a working branch from main.
+3. Add content in the appropriate location:
+    - files/resources for sources and references
+    - files/assets for diagrams, images, and presentation material
+    - ATTRIBUTIONS.md for external source traceability
+4. Update CHANGE-LOG.md for any significant change.
+5. Open a Pull Request.
 
-## Deliverables
+## Expected Deliverables
 
-- Written report (PDF or Markdown)
-- Source files and reproducible artifacts
+- Written report (Markdown or PDF)
+- Reproducible artifacts (code, scripts, data, captures)
 - Presentation material (slides, diagrams)
+
+## Quality and Reproducibility
+
+- Use clear and consistent file names.
+- Keep source information up to date in ATTRIBUTIONS.md.
+- Document authors and contributions in AUTHORS.md.
+- Verify that results can be reproduced using repository files.
+
+## Key File Maintenance Guide
+
+- README.md: project overview, objectives, and usage
+- CHANGE-LOG.md: project evolution log
+- AUTHORS.md: contributors and roles
+- ATTRIBUTIONS.md: technical and academic references
+- files/assets/ASSETS.md: visual and media asset register
+- files/resources/RESOURCES.md: resource register
 
 ## Evaluation Criteria (Example)
 
-- Technical correctness
+- Technical rigor
 - Clarity of explanation
 - Reproducibility
 - Code and documentation quality
 
 ## Contact
 
-For questions, contact: [name@example.com]
+For questions: [your.name@example.com]
 
 ## Latest Changes
 
